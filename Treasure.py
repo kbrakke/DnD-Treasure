@@ -1,5 +1,5 @@
 __author__ = 'Kris'
-import random, dice, json
+import random, dice, Tables
 from resources.data import *
 
 """
@@ -41,12 +41,56 @@ class magic_item(Treasure):
         return self.data["treasure"]
 
 class object():
-    def __init__(self):
+    def __init__(self, data):
         self.objects = gems_art
-    def roll_treasure(self, die, size):
-        rolls = dice.dice(die).roll()
-        items = random.sample(self.objects[size], rolls)
-        return "".join(items, ", ")
+        die_num = data.split(";")
+        self.die = die_num[0]
+        self.num = die_num[1]
+    def roll_treasure(self):
+        rolls = dice.dice(self.die).roll()
+        items = []
+        for i in range(int(rolls)):
+            items.append(random.choice(self.objects[self.num]))
+        return ", ".join(items)+" ("+self.num+" gp each)"
+
+class magic_items():
+    def __init__(self, data):
+        self.magic = Tables.magic_item_table()
+        die_table = data.split(";")
+        self.die = die_table[0]
+        self.table = die_table[1]
+    def roll_treasure(self):
+        rolls = dice.dice(self.die).roll()
+        items = []
+        for i in range(int(rolls)):
+            items.append(self.magic.generate_treasure(self.table))
+        return ", ".join(items)
+
+class hoard_treasure_line(Treasure):
+    def __init__(self, data):
+        Treasure.__init__(self, data)
+        obj = data["objects"]
+        if(obj == "None"):
+            self.object = None
+        else:
+            self.object = object(obj)
+        magic = data["Magic Items"]
+        self.items = []
+        if magic:
+            for d in magic:
+                self.items.append(magic_items(d))
+    def roll_treasure(self):
+        ret = "Gems or Art: "
+        if self.object:
+            ret += self.object.roll_treasure()
+        ret += "\nMagic Items: "
+        if self.items:
+            for i in self.items:
+                ret += i.roll_treasure()
+        return ret
+
+
+
 
 
 

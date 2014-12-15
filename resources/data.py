@@ -455,7 +455,7 @@ I = [
 ]
 
 Hoard_Teir_1 = {
-    "coins" : ["6d6x100;cp", "3d6x100;sp"],
+    "coins" : {"range" : "1-100", "coins" : ["6d6x100;cp", "3d6x100;sp"]},
     "treasure" : [
         {"range" : "1-6", "objects" : "None", "Magic Items" : []},
         {"range" : "7-16", "objects" : "2d6;10", "Magic Items" : []},
@@ -473,6 +473,6 @@ Hoard_Teir_1 = {
         {"range" : "86-92", "objects" : "2d4;25", "Magic Items" : ["1d4;F"]},
         {"range" : "93-97", "objects" : "2d6;50", "Magic Items" : ["1d4;F"]},
         {"range" : "98-99", "objects" : "2d4;25", "Magic Items" : ["1d1;G"]},
-        {"range" : "100", "objects" : "2d6;50", "Magic Items" : ["1d1G"]},
+        {"range" : "100", "objects" : "2d6;50", "Magic Items" : ["1d1;G"]},
     ]
 }

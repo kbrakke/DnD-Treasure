@@ -69,7 +69,18 @@ class magic_item_table():
 
 class hoard_treasures():
     def __init__(self, hoard):
-        self.coins = 
+        self.coins = Treasure.Coins(hoard["coins"])
+        self.hoards = []
+        for t in hoard["treasure"]:
+            self.hoards.append(Treasure.hoard_treasure_line(t))
+
+    def generate_treasure(self):
+        roll = d100.roll()
+        ret = "Coins: "+self.coins.roll_treasure()+"\n"
+        for h in self.hoards:
+            if(h.in_range(int(roll))):
+                ret += h.roll_treasure()
+        return ret
 
 
 
