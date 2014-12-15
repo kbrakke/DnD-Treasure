@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e1c63a-ce74-4bed-96dd-39c3b2761a81" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Driver.py" afterPath="$PROJECT_DIR$/Driver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tables.py" afterPath="$PROJECT_DIR$/Tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Treasure.py" afterPath="$PROJECT_DIR$/Treasure.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/data.py" afterPath="$PROJECT_DIR$/resources/data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Program Resources.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,9 +33,11 @@
       <file leaf-file-name="Treasure.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Treasure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="2652">
-              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="282" max-vertical-offset="1020">
+              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <folding>
+                <element signature="e#20#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +45,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/json/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5444" max-vertical-offset="6052">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5310" max-vertical-offset="6052">
               <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
               <folding />
             </state>
@@ -56,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tables.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tables.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="833">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.6661129" vertical-offset="204" max-vertical-offset="1462">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
               <folding>
                 <element signature="e#20#64#0" expanded="true" />
               </folding>
@@ -68,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9440789" vertical-offset="2469" max-vertical-offset="3162">
-              <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="7609" max-vertical-offset="8211">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -81,8 +87,8 @@
       <file leaf-file-name="Driver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -111,11 +117,11 @@
         <option value="$PROJECT_DIR$/resources/Coins_By_Cr_JSON.txt" />
         <option value="$PROJECT_DIR$/resources/__init__.py" />
         <option value="$PROJECT_DIR$/Generators.py" />
-        <option value="$PROJECT_DIR$/Tables.py" />
         <option value="$PROJECT_DIR$/dice.py" />
-        <option value="$PROJECT_DIR$/Treasure.py" />
         <option value="$PROJECT_DIR$/Driver.py" />
         <option value="$PROJECT_DIR$/resources/data.py" />
+        <option value="$PROJECT_DIR$/Treasure.py" />
+        <option value="$PROJECT_DIR$/Tables.py" />
       </list>
     </option>
   </component>
@@ -421,11 +427,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33544305" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33544305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,7 +473,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="2601">
           <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
-          <folding />
+          <folding>
+            <element signature="e#20#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -517,7 +525,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2601">
           <caret line="64" column="89" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#20#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,7 +577,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="2567">
           <caret line="41" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#20#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,7 +629,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="2567">
           <caret line="61" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#20#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +681,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
           <caret line="82" column="75" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#20#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5444" max-vertical-offset="6052">
-          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33223686" vertical-offset="3759" max-vertical-offset="15351">
@@ -775,13 +783,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tables.py">
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="833">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#64#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="5444" max-vertical-offset="6052">
+          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,27 +799,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Treasure.py">
+    <entry file="file://$PROJECT_DIR$/Driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="2652">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Driver.py">
+    <entry file="file://$PROJECT_DIR$/Treasure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="282" max-vertical-offset="1020">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <element signature="e#20#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9440789" vertical-offset="2469" max-vertical-offset="3162">
-          <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="8211">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6661129" vertical-offset="204" max-vertical-offset="1462">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding>
+            <element signature="e#20#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

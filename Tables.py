@@ -38,6 +38,43 @@ class individual_treasure_table():
     def __str__(self):
         return self.tiers(0).generate_treasure()
 
+class magic_item_table():
+    def __init__(self):
+        self.tables = {"A" : [], "B" : [], "C" : [], "D" : [], "E" : [], "F" : [], "G" : [] , "H" : [], "I" : []}
+        for i in A:
+            self.tables["A"].append(Treasure.magic_item(i))
+        for i in B:
+            self.tables["B"].append(Treasure.magic_item(i))
+        for i in C:
+            self.tables["C"].append(Treasure.magic_item(i))
+        for i in D:
+            self.tables["D"].append(Treasure.magic_item(i))
+        for i in E:
+            self.tables["E"].append(Treasure.magic_item(i))
+        for i in F:
+            self.tables["F"].append(Treasure.magic_item(i))
+        for i in G:
+            self.tables["G"].append(Treasure.magic_item(i))
+        for i in H:
+            self.tables["H"].append(Treasure.magic_item(i))
+        for i in I:
+            self.tables["I"].append(Treasure.magic_item(i))
+    def generate_treasure(self, table):
+        roll = d100.roll()
+        for i in self.tables[table]:
+            if(i.in_range(int(roll))):
+                return i.roll_treasure()
+    def __str__(self):
+        return self.generate_treasure("A")
+
+class hoard_treasures():
+    def __init__(self, hoard):
+        self.coins = 
+
+
+
+
+
 
 
 
