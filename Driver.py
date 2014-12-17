@@ -4,9 +4,21 @@ from resources.data import *
 
 TT = Tables.individual_treasure_table()
 MiT = Tables.magic_item_table()
-HT = Tables.hoard_treasures(Hoard_Teir_1)
+HT1 = Tables.hoard_treasures(Hoard_Teir_1)
+HT2 = Tables.hoard_treasures(Hoard_Teir_2)
+HT3 = Tables.hoard_treasures(Hoard_Teir_3)
+HT4 = Tables.hoard_treasures(Hoard_Teir_4)
+#for i in range(10):
+#    print HT1.generate_treasure()
+#    print
+#for i in range(10):
+#    print HT2.generate_treasure()
+#    print
+#for i in range(10):
+#    print HT3.generate_treasure()
+#    print
 for i in range(10):
-    print HT.generate_treasure()
+    print HT4.generate_treasure()
     print
 #for i in range(1, 100):
 #    print TT.generate_treasure(2)

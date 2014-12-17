@@ -476,3 +476,108 @@ Hoard_Teir_1 = {
         {"range" : "100", "objects" : "2d6;50", "Magic Items" : ["1d1;G"]},
     ]
 }
+
+Hoard_Teir_2 = {
+    "coins" : {"range" : "1-100", "coins" : ["2d6x100;cp", "2d6x100;sp", "6d6x100;gp", "3d6x10;pp"]},
+    "treasure" : [
+        {"range" : "1-4", "objects" : "None", "Magic Items" : []},
+        {"range" : "5-10", "objects" : "2d4;25", "Magic Items" : []},
+        {"range" : "11-16", "objects" : "3d6;50", "Magic Items" : []},
+        {"range" : "17-22", "objects" : "3d6;100", "Magic Items" : []},
+        {"range" : "23-28", "objects" : "2d4;250", "Magic Items" : []},
+        {"range" : "29-32", "objects" : "2d4;25", "Magic Items" : ["1d6;A"]},
+        {"range" : "33-36", "objects" : "3d6;50", "Magic Items" : ["1d6;A"]},
+        {"range" : "37-40", "objects" : "3d6;100", "Magic Items" : ["1d6;A"]},
+        {"range" : "41-44", "objects" : "2d4;250", "Magic Items" : ["1d4;B"]},
+        {"range" : "45-49", "objects" : "2d4;25", "Magic Items" : ["1d4;B"]},
+        {"range" : "50-54", "objects" : "3d6;50", "Magic Items" : ["1d4;B"]},
+        {"range" : "55-59", "objects" : "3d6;100", "Magic Items" : ["1d4;B"]},
+        {"range" : "60-63", "objects" : "2d4;250", "Magic Items" : ["1d4;B"]},
+        {"range" : "64-66", "objects" : "2d4;25", "Magic Items" : ["1d4;C"]},
+        {"range" : "67-69", "objects" : "3d6;50", "Magic Items" : ["1d4;C"]},
+        {"range" : "70-72", "objects" : "3d6;100", "Magic Items" : ["1d4;C"]},
+        {"range" : "73-74", "objects" : "2d4;250", "Magic Items" : ["1d4;C"]},
+        {"range" : "75-76", "objects" : "2d4;25", "Magic Items" : ["1d1;D"]},
+        {"range" : "77-78", "objects" : "3d6;50", "Magic Items" : ["1d1;D"]},
+        {"range" : "79", "objects" : "3d6;100", "Magic Items" : ["1d1;D"]},
+        {"range" : "80", "objects" : "2d4;250", "Magic Items" : ["1d1;D"]},
+        {"range" : "81-84", "objects" : "2d4;25", "Magic Items" : ["1d4;F"]},
+        {"range" : "85-88", "objects" : "3d6;50", "Magic Items" : ["1d4;F"]},
+        {"range" : "89-91", "objects" : "3d6;100", "Magic Items" : ["1d4;F"]},
+        {"range" : "92-94", "objects" : "2d4;250", "Magic Items" : ["1d4;F"]},
+        {"range" : "95-96", "objects" : "3d6;100", "Magic Items" : ["1d4;G"]},
+        {"range" : "97-98", "objects" : "2d4;250", "Magic Items" : ["1d4;G"]},
+        {"range" : "99", "objects" : "3d6;100", "Magic Items" : ["1d1;H"]},
+        {"range" : "100", "objects" : "2d4;250", "Magic Items" : ["1d1;H"]}
+    ]
+}
+
+Hoard_Teir_3 = {
+    "coins" : {"range" : "1-100", "coins" : ["4d6x1000;gp", "5d6x100;pp"]},
+    "treasure" : [
+        {"range" : "1-3", "objects" : "None", "Magic Items" : []},
+        {"range" : "4-6", "objects" : "2d4;250", "Magic Items" : []},
+        {"range" : "7-9", "objects" : "2d4;750", "Magic Items" : []},
+        {"range" : "10-12", "objects" : "3d6;500", "Magic Items" : []},
+        {"range" : "13-15", "objects" : "3d6;1050", "Magic Items" : []},
+        {"range" : "16-19", "objects" : "2d4;250", "Magic Items" : ["1d4;A", "1d6;B"]},
+        {"range" : "20-23", "objects" : "2d4;750", "Magic Items" : ["1d4;A", "1d6;B"]},
+        {"range" : "24-26", "objects" : "3d6;500", "Magic Items" : ["1d4;A", "1d6;B"]},
+        {"range" : "27-29", "objects" : "3d6;1000", "Magic Items" : ["1d4;A", "1d6;B"]},
+        {"range" : "30-35", "objects" : "2d4;250", "Magic Items" : ["1d6;C"]},
+        {"range" : "36-40", "objects" : "2d4;750", "Magic Items" : ["1d6;C"]},
+        {"range" : "41-45", "objects" : "3d6;500", "Magic Items" : ["1d6;C"]},
+        {"range" : "46-50", "objects" : "3d6;1000", "Magic Items" : ["1d6;C"]},
+        {"range" : "51-54", "objects" : "2d4;250", "Magic Items" : ["1d4;D"]},
+        {"range" : "55-58", "objects" : "2d4;750", "Magic Items" : ["1d4;D"]},
+        {"range" : "59-62", "objects" : "3d6;500", "Magic Items" : ["1d4;D"]},
+        {"range" : "63-66", "objects" : "3d6;1000", "Magic Items" : ["1d4;D"]},
+        {"range" : "67-68", "objects" : "2d4;250", "Magic Items" : ["1d1;E"]},
+        {"range" : "69-70", "objects" : "2d4;750", "Magic Items" : ["1d1;E"]},
+        {"range" : "71-72", "objects" : "3d6;500", "Magic Items" : ["1d1;E"]},
+        {"range" : "73-74", "objects" : "3d6;1000", "Magic Items" : ["1d1;E"]},
+        {"range" : "75-76", "objects" : "2d4;250", "Magic Items" : ["1d1;F", "1d4;G"]},
+        {"range" : "77-78", "objects" : "2d4;750", "Magic Items" : ["1d1;F", "1d4;G"]},
+        {"range" : "79-80", "objects" : "3d6;500", "Magic Items" : ["1d1;F", "1d4;G"]},
+        {"range" : "81-82", "objects" : "3d6;1000", "Magic Items" : ["1d1;F", "1d4;G"]},
+        {"range" : "83-85", "objects" : "2d4;250", "Magic Items" : ["1d4;H"]},
+        {"range" : "86-88", "objects" : "2d4;750", "Magic Items" : ["1d4;H"]},
+        {"range" : "89-90", "objects" : "3d6;500", "Magic Items" : ["1d4;H"]},
+        {"range" : "91-92", "objects" : "3d6;1000", "Magic Items" : ["1d4;H"]},
+        {"range" : "93-94", "objects" : "2d4;250", "Magic Items" : ["1d1;I"]},
+        {"range" : "95-96", "objects" : "2d4;750", "Magic Items" : ["1d1;I"]},
+        {"range" : "97-98", "objects" : "3d6;500", "Magic Items" : ["1d1;I"]},
+        {"range" : "99-100", "objects" : "3d6;1000", "Magic Items" : ["1d1;I"]}
+    ]
+}
+
+Hoard_Teir_4 = {
+    "coins" : {"range" : "1-100", "coins" : ["12d6x1000;gp", "8d6x1000;pp"]},
+    "treasure" : [
+        {"range" : "1-2", "objects" : "None", "Magic Items" : []},
+        {"range" : "3-5", "objects" : "3d6;1000", "Magic Items" : ["1d8;C"]},
+        {"range" : "6-8", "objects" : "1d10;2500", "Magic Items" : ["1d8;C"]},
+        {"range" : "9-11", "objects" : "1d4;7500", "Magic Items" : ["1d8;C"]},
+        {"range" : "12-14", "objects" : "1d8;5000", "Magic Items" : ["1d8;C"]},
+        {"range" : "15-22", "objects" : "3d6;1000", "Magic Items" : ["1d6;D"]},
+        {"range" : "23-30", "objects" : "1d10;2500", "Magic Items" : ["1d6;D"]},
+        {"range" : "31-38", "objects" : "1d4;7500", "Magic Items" : ["1d6;D"]},
+        {"range" : "39-46", "objects" : "1d8;5000", "Magic Items" : ["1d6;D"]},
+        {"range" : "47-52", "objects" : "3d6;1000", "Magic Items" : ["1d6;E"]},
+        {"range" : "53-58", "objects" : "1d10;2500", "Magic Items" : ["1d6;E"]},
+        {"range" : "59-63", "objects" : "1d4;7500", "Magic Items" : ["1d6;E"]},
+        {"range" : "64-68", "objects" : "1d8;5000", "Magic Items" : ["1d6;E"]},
+        {"range" : "69", "objects" : "3d6;1000", "Magic Items" : ["1d4;G"]},
+        {"range" : "70", "objects" : "1d10;2500", "Magic Items" : ["1d4;G"]},
+        {"range" : "71", "objects" : "1d4;7500", "Magic Items" : ["1d4;G"]},
+        {"range" : "72", "objects" : "1d8;5000", "Magic Items" : ["1d4;G"]},
+        {"range" : "73-74", "objects" : "3d6;1000", "Magic Items" : ["1d4;H"]},
+        {"range" : "75-76", "objects" : "1d10;2500", "Magic Items" : ["1d4;H"]},
+        {"range" : "77-78", "objects" : "1d4;7500", "Magic Items" : ["1d4;H"]},
+        {"range" : "79-80", "objects" : "1d8;5000", "Magic Items" : ["1d4;H"]},
+        {"range" : "81-85", "objects" : "3d6;1000", "Magic Items" : ["1d4;I"]},
+        {"range" : "86-90", "objects" : "1d10;2500", "Magic Items" : ["1d4;I"]},
+        {"range" : "91-95", "objects" : "1d4;7500", "Magic Items" : ["1d4;I"]},
+        {"range" : "96-100", "objects" : "1d8;5000", "Magic Items" : ["1d4;I"]}
+    ]
+}

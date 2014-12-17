@@ -86,7 +86,7 @@ class hoard_treasure_line(Treasure):
         ret += "\nMagic Items: "
         if self.items:
             for i in self.items:
-                ret += i.roll_treasure()
+                ret += i.roll_treasure()+", "
         return ret
 
 
